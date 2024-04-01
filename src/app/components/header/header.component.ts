@@ -9,5 +9,6 @@ import { NavBarComponent } from '../nav-bar/nav-bar.component';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
+  title = 'Angular';
 
 }

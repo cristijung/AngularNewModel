@@ -1,4 +1,21 @@
+
 .menu {
-  background-color: aliceblue;
-  color:black;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  color: #ccc;
+}
+
+.menu a.active {
+  color: #fff;
+  font-weight: bold;
 }

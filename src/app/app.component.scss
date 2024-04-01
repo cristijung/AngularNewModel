@@ -1,0 +1,17 @@
+.app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+
+app-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
