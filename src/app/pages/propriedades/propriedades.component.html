@@ -1,1 +1,11 @@
-<p>propriedades works!</p>
+
+<section class="fundo">
+  <h3>{{ title }}</h3>
+  <hr/>
+  <app-componente-filho [mensagemDoPai]="mensagemParaFilho"></app-componente-filho>
+  <hr/>
+  <br/>
+  <h2>Mensagem do Segundo Filho</h2>
+  <app-filho-dois (mensagemEnviada)="receberMensagem($event)"></app-filho-dois>
+  <p>Mensagem do segundo filho: {{ mensagemRecebidaDoFilho }}</p>
+</section>

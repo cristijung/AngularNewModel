@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-
+  title = 'Bem Vindo(a) ao Angular';
+  stitle = 'Aula parte 2 de Angular';
+  image = '../../../assets/angular.png';
+  alt = 'Logotipo do novo Angular';
+  legend = 'Fonte da imagem: https:// ...';
 }
