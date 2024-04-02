@@ -13,7 +13,7 @@ export class FilhoDoisComponent {
 
   @Output() mensagemEnviada = new EventEmitter<string>();
   @Input() mensagemDoPai: string = '';
-  @Input() mensagemDeSaida: string = '';
+  //@Input() mensagemDeSaida: string = '';
 
   enviarMensagem() {
     this.mensagemEnviada.emit(
@@ -21,4 +21,9 @@ export class FilhoDoisComponent {
     );
   }
 
+  //código ajustado e corrigido
+  mensagemRecebidaDoIrmaoUm: string = '';
+  receberMensagem(mensagerm: string) {
+    this.mensagemRecebidaDoIrmaoUm = mensagerm;
+  }
 }
